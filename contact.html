@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<center>
+<table>
+<tr>
+<td>
+<h2>We are from....</h2>
+<div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.245677096952!2d83.40339111468104!3d18.06017798767878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be4c4081c8dbb%3A0x1c634bbcd67ea3bf!2sMaharaj%20Vijayaram%20Gajapathi%20Raj%20College%20of%20Engineering%20(Autonomous)!5e0!3m2!1sen!2sin!4v1679404253698!5m2!1sen!2sin" width="450" height="450" style="border:200;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</td>
+<td>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</td>
+</tr>
+</table>
+
+<h2 style="text-align:center">TEAM MEMBERS</h2>
+
+<table align="center">
+<tr>
+<td>
+<div class="card">
+  <img src="contact1.jpg" alt="SRU" style="width:100%">
+  <h1>SRUJAN BASAVA</h1>
+  <p class="title">IT dept 20331a1212</p>
+  <p>MVGR</p>
+  <div style="margin: 24px 0;">
+    <a href="https://wa.me/+919949048375" target="_blank"><i class="fa fa-whatsapp"></i></a> 
+    <a href="https://instagram.com/_i_m_srujan_?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa fa-instagram"></i></a>  
+    <a href="https://www.linkedin.com/mwlite/in/srujan-basava-822ab0219" target="_blank"><i class="fa fa-linkedin"></i></a>  
+  </div>
+  <p><button>Contact</button></p>
+</div>
+</td>
+<td>
+<div class="card">
+    <img src="contact2.jpg" alt="SRU" style="width:100%">
+    <h1>MANOJ S D G</h1>
+    <p class="title">IT dept 20331a1218</p>
+    <p>MVGR</p>
+    <div style="margin: 24px 0;">
+      <a href="https://wa.me/+916303324483" target="_blank"><i class="fa fa-whatsapp"></i></a> 
+      <a href="https://instagram.com/manojmanu7831?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>  
+      <a href=""><i class="fa fa-linkedin" target="_blank"></i></a>  
+    </div>
+    <p><button>Contact</button></p>
+</div>
+</td>
+<td>
+<div class="card">
+    <img src="contact3.jpg" alt="SRU" style="width:100%">
+    <h1>AMRUTHA VALLI</h1>
+    <p class="title">IT dept 20331a1202</p>
+    <p>MVGR</p>
+    <div style="margin: 24px 0;">
+      <a href="https://wa.me/+916304871561" target="_blank"><i class="fa fa-whatsapp"></i></a> 
+      <a href="https://instagram.com/_mystic_giggles_?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>  
+      <a href=""><i class="fa fa-linkedin" target="_blank"></i></a>  
+    </div>
+    <p><button>Contact</button></p>
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+</center>
+</body>
+</html>

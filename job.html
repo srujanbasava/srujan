@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url(jobbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background: linear-gradient(to right, rgb(249, 134, 237), rgb(255, 0, 136));
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);
+}
+
+ul li:nth-child(even) {
+    background: linear-gradient(to left, rgb(249, 134, 237), rgb(255, 0, 136));
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);
+}
+
+ul li:nth-child(odd):hover {
+    transform: perspective(200px) rotateY(45deg);
+    padding-left: 5%;
+}
+
+ul li:nth-child(even):hover {
+    transform: perspective(200px) rotateY(-45deg);
+    padding-right: 5%;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+    
+    <li id="ftj"  class="btn"><b>FULL TIME JOBS</b></li>
+    <li id="ptj" class="btn1"><b>PART TIME JOBS</b></li>
+    <li id="intrn"  class="btn"><b>INTERNSHIPS</b></li>
+</ul>
+<script type="text/javascript">
+  document.getElementById("ftj").onclick = function () {
+      location.href = "cources.html";
+  };
+
+</script>
+
+<script type="text/javascript">
+  document.getElementById("ptj").onclick = function () {
+      location.href = "cources.html";
+  };
+
+</script>
+
+<script type="text/javascript">
+  document.getElementById("intrn").onclick = function () {
+      location.href = "cources.html";
+  };
+
+</script>
+</body>
+</html>
